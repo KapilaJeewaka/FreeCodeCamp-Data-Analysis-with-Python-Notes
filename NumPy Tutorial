@@ -1,0 +1,21 @@
+# Free Code Camp NumPy Tutorial.
+
+## Why is NumPy Faster?
+
+NUMPY:
+
+- 5 in binary representation is 00000101 which is 1 byte (8 bits).
+- NumPy arrays use fixed-size data types, which allows for efficient storage and manipulation of arrays.
+- By default, the integer data type in NumPy is int32, which requires 4 bytes (32 bits) of memory.
+- We can define it to be int16, which requires 2 bytes (16 bits) of memory, or int8, which requires 1 byte (8 bits) of memory.
+- When we iterate through each item in a NumPy array, we don’t have to do type-checking each time, which makes it faster than using lists in Python.
+- NumPy uses contiguous memory, meaning that all elements of an array are stored in a single block of memory.
+
+PYTHON:
+
+- Lists in Python use dynamic typing, which means that the type of each element can change dynamically.
+- Each element in a Python list requires additional memory for the object type and reference count.
+- This makes it slower to read and write elements in a list compared to NumPy arrays.
+- When iterating through each element in a Python list, we need to check the type of each element, which adds additional overhead and slows down the iteration process.
+
+## Applications of NumPy
